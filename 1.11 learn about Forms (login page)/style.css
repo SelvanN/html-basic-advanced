@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Form_Validation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 5px 5px 50px 5px rgb(168, 170, 170);
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(247, 215, 220);
+    min-height: 90vh;
+    width: 70%;
+    text-align: left;
+
+}
+
+h1 {
+    color: red;
+    font-weight: 600;
+    font-size: 38px;
+    padding-bottom: 10px;
+}
+
+label {
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+    width: 240px;
+    display: inline-block;
+    padding: 2px;
+}
+
+/* label::after{
+    content: "*";
+    color: red;
+    font-size: 20px;
+} */
+
+input {
+    margin-bottom: 20px;
+    /* width: 100px;
+    display: inline-block; */
+}
+
+.submit {
+    margin-left: 40%;
+    padding: 5px 20px;
+    color: #fff;
+    background-color: blue;
+    border: none;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+
+
+
+#firstname-error {
+    color: red;
+    margin-left: 10px;
+    /* display: none; */
+}
